@@ -1,0 +1,33 @@
+doctype html
+html 
+    head 
+        title  Zumba academy
+        style
+            include ../static/style.css     
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.png", alt="")
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Service]
+                li #[a(href="/") ClassInfo]
+                li #[a(href="/") ContactUs]
+
+        section#introSection 
+            div Welcome to Zumba 
+            div.small Eat Work Sleep Repeat...!!!
+            p Zumba is an interval workout. The classes move between high- and low-intensity dance moves designed to get your heart rate up and boost cardio endurance.Zumba was created in the 1990s by dancer and choreographer Beto Pérez, an aerobics instructor in Cali, Colombia. After forgetting his usual music one day, and using cassette tapes of Latin dance music (salsa and merengue) for class, Pérez began integrating the music and dancing into other classes, calling it "Rumbacize"
+        section#sponsorsSection
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="/static/golds.jpg", alt="", class="spiamge")
+                img(src="/static/crunch.png", alt="", class="spiamge")
+                img(src="/static/planet.png", alt="", class="spiamge")
+                img(src="/static/zumba.png", alt="", class="spiamge")
+        footer#footer
+            |Copyright © 2022 ZumbaFitness  all rights reservd
+        
+        script
+            include ../static/index.js 

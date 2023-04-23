@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Akaya+Kanadaka&family=Alegreya+SC&family=Amita&family=Arvo:ital@1&family=Caveat:wght@400;500&family=Lobster&family=Open+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+display: flex;
+height: 40px;
+margin-bottom: 10px;
+}
+#navbar{
+    background-color: rgb(3, 2, 2);
+    padding: 13px 14px;
+    font-family: 'Akaya Kanadaka', cursive;
+    
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    margin: 0px 14px;
+    color: white;
+    /* border: 2px solid rgb(248, 242, 242); */
+    border-radius: 10px;
+}
+#navbar li a:hover{
+color: rgb(119, 22, 22);
+cursor: pointer;
+font-size: 20px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#introSection{
+    background: center/cover no-repeat url("/static/bg1.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 80px;
+    height: 700px;
+    background-color: red;   
+    padding-bottom: 200px;
+}
+#introSection div.small{
+    font-size: 3rem;
+}
+#introSection p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#sponsorsSection{
+    
+    height: 300px;
+    background-color: rgb(5, 5, 2);
+}
+#sponsorsSection h2{
+ color: white;
+ text-align: center;
+ font-family: 'Akaya Kanadaka', cursive;
+ font-size: 4rem;
+ padding-top: 23px;
+ 
+}
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 80px;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 25px;
+
+}
+.spimage{
+    height: 50%;
+    margin:0px 52px;
+    padding: 25px;
+    width: 100%;
+}
+#footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+height: 60px;
+font-family: 'Akaya Kanadaka', cursive;
+}
+

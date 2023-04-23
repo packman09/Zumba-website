@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Akaya+Kanadaka&family=Alegreya+SC&family=Amita&family=Arvo:ital@1&family=Caveat:wght@400;500&family=Lobster&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Akaya+Kanadaka&family=Alegreya+SC&family=Amita&family=Arvo:ital@1&family=Bona+Nova:wght@700&family=Caveat:wght@400;500&family=Crete+Round&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Lobster&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Akaya+Kanadaka&family=Alegreya+SC&family=Amita&family=Arvo:ital@1&family=Bona+Nova:wght@700&family=Caveat:wght@400;500&family=Crete+Round&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Lobster&family=Open+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0px;
+    font-family: 'lobster', cursive;
+}
+.container{
+    min-height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 34px;
+     background: center/cover no-repeat url("/static/contact\ \(3\).jpg"); 
+     color: rgb(0, 0, 0);
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myinput{
+    width: 550px;
+    height: 30px;
+    padding: 0px 55xp;
+    margin: 12px 0px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    outline: none;
+    margin: 26px;
+}
+.btn:hover{
+    transition: 2s;
+    background-color: white;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
